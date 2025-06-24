@@ -23,8 +23,6 @@ public class T3A_ClickManager : MonoBehaviour
 
             if (hit.collider != null)
             {
-                Debug.Log("Clicked on: " + hit.collider.name);
-
                 // Check if the clicked object is a hidden object
                 T3A_HiddenObject hidden_object = hit.collider.GetComponent<T3A_HiddenObject>();
                 if (hidden_object != null)
