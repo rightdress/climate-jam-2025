@@ -2,23 +2,27 @@ using UnityEngine;
 
 public class T3A_HiddenObject : MonoBehaviour
 {
+    public T3A_GameManager GameManager;
     public GameObject UI_Object;
-    SpriteRenderer spriteRenderer;
+
+    SpriteRenderer _spriteRenderer;
 
     private void Awake()
     {
-        spriteRenderer = UI_Object.GetComponent<SpriteRenderer>();
-        spriteRenderer.material = new Material(spriteRenderer.material); // Create a unique instance of the material, so that the greyscale shader doesn't affect all objects
+        // Create a unique instance of the material, so that the greyscale shader doesn't affect all objects since they use the same material before runtime
+        _spriteRenderer = UI_Object.GetComponent<SpriteRenderer>();
+        _spriteRenderer.material = new Material(_spriteRenderer.material);
 
         // Set object to be grey
-        spriteRenderer.material.SetFloat("_Greyscale", 1f);
+        _spriteRenderer.material.SetFloat("_Greyscale", 1f);
     }
 
     public void OnClicked()
     {
-        // TODO: tell gamemanager that object was found
+        // Tell GameManager that an object was found (currently doesn't specify WHICH object was found, but we can add that if necessary)
+        GameManager.ItemFound();
 
         // Set object to be colourful
-        spriteRenderer.material.SetFloat("_Greyscale", 0f);
+        _spriteRenderer.material.SetFloat("_Greyscale", 0f);
     }
 }

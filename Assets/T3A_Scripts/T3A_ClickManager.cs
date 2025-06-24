@@ -3,11 +3,11 @@ using UnityEngine.InputSystem;
 
 public class T3A_ClickManager : MonoBehaviour
 {
-    Camera m_Camera;
+    Camera _camera;
 
     private void Awake()
     {
-        m_Camera = Camera.main;
+        _camera = Camera.main;
     }
 
     private void Update()
@@ -17,7 +17,7 @@ public class T3A_ClickManager : MonoBehaviour
         if (mouse.leftButton.wasPressedThisFrame)
         {
             Vector2 mousePosition = mouse.position.ReadValue();
-            Vector2 worldPoint = m_Camera.ScreenToWorldPoint(mousePosition);
+            Vector2 worldPoint = _camera.ScreenToWorldPoint(mousePosition);
 
             RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
 
