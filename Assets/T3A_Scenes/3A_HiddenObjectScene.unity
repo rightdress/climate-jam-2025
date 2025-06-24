@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 454536753}
   - component: {fileID: 454536754}
   m_Layer: 0
-  m_Name: T3A_Placeholder_Breadfruit_0
+  m_Name: Placeholder Breadfruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548873665}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -945,7 +945,7 @@ GameObject:
   - component: {fileID: 772324936}
   - component: {fileID: 772324935}
   m_Layer: 0
-  m_Name: T3A_Placeholder_Bicycle_0
+  m_Name: Placeholder Bicycle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1252,7 +1252,7 @@ GameObject:
   - component: {fileID: 1082024425}
   - component: {fileID: 1082024426}
   m_Layer: 0
-  m_Name: T3A_Placeholder_Newspaper_0
+  m_Name: Placeholder Newspaper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2130,7 +2130,7 @@ GameObject:
   - component: {fileID: 1697637452}
   - component: {fileID: 1697637453}
   m_Layer: 0
-  m_Name: T3A_Placeholder_Plant_0
+  m_Name: Placeholder Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2667,7 +2667,7 @@ GameObject:
   - component: {fileID: 2046879955}
   - component: {fileID: 2046879956}
   m_Layer: 0
-  m_Name: T3A_Placeholder_Bucket_0
+  m_Name: Placeholder Bucket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
