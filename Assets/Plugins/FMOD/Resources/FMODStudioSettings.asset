@@ -463,10 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../../SabrinaFedeleAudio/Projects - SFA/Kiribati/Indiecade
-    Climate Jam 2025/Indiecade Climate Jam 2025.fspro
-  sourceBankPath: ../../../../SabrinaFedeleAudio/Projects - SFA/Kiribati/Indiecade
-    Climate Jam 2025/Build
+  sourceProjectPath: FMOD/Indiecade Climate Jam 2025/Indiecade Climate Jam 2025.fspro
+  sourceBankPath: FMOD/Indiecade Climate Jam 2025/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
