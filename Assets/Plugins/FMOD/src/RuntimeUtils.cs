@@ -626,3 +626,4 @@ namespace FMODUnity
 #endif
     }
 }
+
