@@ -1,0 +1,324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6659118076565326355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Breadfruit on Floor
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Breadfruit on Floor
+  Guid:
+    Data1: 1987248348
+    Data2: 1324646289
+    Data3: 423180453
+    Data4: -1977550813
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 603
+--- !u!114 &-6008539394631543057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638865366750167501
+  FileSizes:
+  - Name: Desktop
+    Value: 1046
+  Exists: 1
+--- !u!114 &-2580513203116607699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Newspaper Clippings/June 11 2022
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Newspaper Clippings/June 11 2022
+  Guid:
+    Data1: -772602125
+    Data2: 1290302371
+    Data3: 1900299664
+    Data4: 1444109436
+  Banks:
+  - {fileID: 5581345526680876138}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21895
+--- !u!114 &-72389913053162271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Potted Plant
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Potted Plant
+  Guid:
+    Data1: -1706848648
+    Data2: 1230307597
+    Data3: 904408752
+    Data4: 1365363815
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 617
+--- !u!114 &-65698072652741646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Prototype Scene
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Prototype Scene
+  Guid:
+    Data1: -298075616
+    Data2: 1301380388
+    Data3: 1389845393
+    Data4: 2113702203
+  Banks:
+  - {fileID: -6008539394631543057}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 537640464328472060}
+  - {fileID: 5581345526680876138}
+  - {fileID: 6794466243382668984}
+  - {fileID: -6008539394631543057}
+  - {fileID: 5431593022651343030}
+  EditorEvents:
+  - {fileID: 8851507891973054530}
+  - {fileID: -72389913053162271}
+  - {fileID: -6659118076565326355}
+  - {fileID: -65698072652741646}
+  - {fileID: 3171832598049052178}
+  - {fileID: 4750350502887691658}
+  - {fileID: -2580513203116607699}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6794466243382668984}
+  StringsBanks:
+  - {fileID: 537640464328472060}
+  cacheTime: 638865366750192811
+  cacheVersion: 131625
+--- !u!114 &537640464328472060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638865366750109365
+  FileSizes:
+  - Name: Desktop
+    Value: 1502
+  Exists: 1
+--- !u!114 &3171832598049052178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Newspaper
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Newspaper
+  Guid:
+    Data1: 481959034
+    Data2: 1151211796
+    Data3: 742324400
+    Data4: 1417748288
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1229
+--- !u!114 &4750350502887691658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Newspaper Clippings/April 02 2023
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Newspaper Clippings/April 02 2023
+  Guid:
+    Data1: 887260377
+    Data2: 1239662561
+    Data3: -1494728264
+    Data4: -1266602633
+  Banks:
+  - {fileID: 5581345526680876138}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24410
+--- !u!114 &5431593022651343030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638865366750192811
+  FileSizes:
+  - Name: Desktop
+    Value: 54080
+  Exists: 1
+--- !u!114 &5581345526680876138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Dialogue.bank
+  Name: Dialogue
+  StudioPath: bank:/Dialogue
+  lastModified: 638865366750063940
+  FileSizes:
+  - Name: Desktop
+    Value: 842336
+  Exists: 1
+--- !u!114 &6794466243382668984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638865366750063940
+  FileSizes:
+  - Name: Desktop
+    Value: 1744
+  Exists: 1
+--- !u!114 &8851507891973054530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Plastic Bucket
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Plastic Bucket
+  Guid:
+    Data1: -1246397673
+    Data2: 1148324725
+    Data3: -1508239959
+    Data4: 608397147
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 519
