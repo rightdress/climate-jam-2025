@@ -219,6 +219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 1082024424}
+  HintBoxText: 'NEWS: Thousands have been left without sufficient access to safe
+    drinking water.'
 --- !u!114 &76885588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,6 +362,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 2046879954}
+  HintBoxText: These containers are used to collect well water. The water is brackish
+    and is not safe to drink.
 --- !u!114 &112812676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,6 +1000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalItems: 5
   NextLevelButton: {fileID: 1458340483}
+  HintBoxText: {fileID: 2106128323}
 --- !u!1 &736102126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,6 +1394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 772324934}
+  HintBoxText: Residents need to travel long distances in the heat to collect clean
+    drinking water.
 --- !u!1 &1067425348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,6 +2041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 1697637451}
+  HintBoxText: Increasing levels of salinity in the water is affecting garden yields.
 --- !u!114 &1432485030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2878,6 +2886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 454536752}
+  HintBoxText: The breadfruit tree now produces less fruit after being watered with
+    contaminated well water.
 --- !u!114 &1800685680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,7 +3016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887885723}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Objects in UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

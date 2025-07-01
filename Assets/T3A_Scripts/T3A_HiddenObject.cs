@@ -4,6 +4,7 @@ public class T3A_HiddenObject : MonoBehaviour
 {
     public T3A_GameManager GameManager;
     public GameObject UI_Object;
+    public string HintBoxText;
 
     SpriteRenderer _spriteRenderer;
 
@@ -24,6 +25,12 @@ public class T3A_HiddenObject : MonoBehaviour
 
         // Set object to be colourful
         _spriteRenderer.material.SetFloat("_Greyscale", 0f);
+
+        // Update hintbox text
+        GameManager.UpdateHintBox(HintBoxText);
+
+        // Wiggle UI Object
+        GameManager.WiggleObject(UI_Object);
 
         // Disable gameObject with collider component, which will prevent the collider from being clicked on again and
         // trigger the FMOD event as long as FMOD studio event emitter component is set up properly:
