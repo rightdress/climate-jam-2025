@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 762aee5741395a448874d9f92683d5c6
+guid: 2861d5959af77454fb160b65fce7ffb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -970152059274279003
-    second: T3A_itemboxes_BG_0
+      213: 154315744663867032
+    second: T3A_nextarrow_pressed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: T3A_itemboxes_BG_0
+      name: T3A_nextarrow_pressed_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 658
-        height: 149
+        width: 148
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a7c7d897d35982f0800000000000000
-      internalID: -970152059274279003
+      spriteID: 89e80f72a5d342200800000000000000
+      internalID: 154315744663867032
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      T3A_itemboxes_BG_0: -970152059274279003
+      T3A_nextarrow_pressed_0: 154315744663867032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

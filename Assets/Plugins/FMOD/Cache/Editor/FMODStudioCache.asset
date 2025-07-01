@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638865366750167501
+  lastModified: 638869069504529467
   FileSizes:
   - Name: Desktop
     Value: 1046
@@ -159,7 +159,7 @@ MonoBehaviour:
   - {fileID: 6794466243382668984}
   StringsBanks:
   - {fileID: 537640464328472060}
-  cacheTime: 638865366750192811
+  cacheTime: 638869069504539397
   cacheVersion: 131625
 --- !u!114 &537640464328472060
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638865366750109365
+  lastModified: 638869069504519386
   FileSizes:
   - Name: Desktop
     Value: 1502
@@ -250,7 +250,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638865366750192811
+  lastModified: 638869069504539397
   FileSizes:
   - Name: Desktop
     Value: 54080
@@ -270,7 +270,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 638865366750063940
+  lastModified: 638869069504509369
   FileSizes:
   - Name: Desktop
     Value: 842336
@@ -290,7 +290,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638865366750063940
+  lastModified: 638869069504519386
   FileSizes:
   - Name: Desktop
     Value: 1744
