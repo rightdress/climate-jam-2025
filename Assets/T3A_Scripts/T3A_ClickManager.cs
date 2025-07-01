@@ -28,9 +28,6 @@ public class T3A_ClickManager : MonoBehaviour
                 if (hidden_object != null)
                 {
                     hidden_object.OnClicked();
-
-                    // Disable polygon collider so object can't be clicked again
-                    hit.collider.enabled = false;
                 }
             }
         }

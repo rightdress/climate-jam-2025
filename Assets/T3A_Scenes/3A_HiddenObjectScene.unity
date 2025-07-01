@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 76885585}
   - component: {fileID: 76885586}
   - component: {fileID: 76885587}
+  - component: {fileID: 76885588}
   m_Layer: 0
   m_Name: Newspaper Clickable Area
   m_TagString: Untagged
@@ -218,6 +219,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 1082024424}
+--- !u!114 &76885588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76885584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 481959034
+      Data2: 1151211796
+      Data3: 742324400
+      Data4: 1417748288
+    Path: event:/SFX/Item Pick-up/Newspaper
+  Event: 
+  EventPlayTrigger: 12
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &112812672
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,6 +261,7 @@ GameObject:
   - component: {fileID: 112812673}
   - component: {fileID: 112812674}
   - component: {fileID: 112812675}
+  - component: {fileID: 112812676}
   m_Layer: 0
   m_Name: Bucket Clickable Area
   m_TagString: Untagged
@@ -327,6 +360,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 2046879954}
+--- !u!114 &112812676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112812672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1246397673
+      Data2: 1148324725
+      Data3: -1508239959
+      Data4: 608397147
+    Path: event:/SFX/Item Pick-up/Plastic Bucket
+  Event: 
+  EventPlayTrigger: 12
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &137413781
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,37 +950,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &598052831
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 598052832}
-  m_Layer: 0
-  m_Name: SFX
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &598052832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598052831}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646017609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,6 +1942,7 @@ GameObject:
   - component: {fileID: 1432485027}
   - component: {fileID: 1432485028}
   - component: {fileID: 1432485029}
+  - component: {fileID: 1432485030}
   m_Layer: 0
   m_Name: Plant Clickable Area
   m_TagString: Untagged
@@ -2000,6 +2034,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 1697637451}
+--- !u!114 &1432485030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432485026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1706848648
+      Data2: 1230307597
+      Data3: 904408752
+      Data4: 1365363815
+    Path: event:/SFX/Item Pick-up/Potted Plant
+  Event: 
+  EventPlayTrigger: 12
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1458340481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,6 +2546,7 @@ GameObject:
   - component: {fileID: 1703868039}
   - component: {fileID: 1703868038}
   - component: {fileID: 1703868041}
+  - component: {fileID: 1703868042}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2606,6 +2672,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1703868042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703868037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &1705817981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,6 +2784,7 @@ GameObject:
   - component: {fileID: 1800685677}
   - component: {fileID: 1800685678}
   - component: {fileID: 1800685679}
+  - component: {fileID: 1800685680}
   m_Layer: 0
   m_Name: Breadfruit Clickable Area
   m_TagString: Untagged
@@ -2797,6 +2878,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 646017611}
   UI_Object: {fileID: 454536752}
+--- !u!114 &1800685680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800685676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1987248348
+      Data2: 1324646289
+      Data3: 423180453
+      Data4: -1977550813
+    Path: event:/SFX/Item Pick-up/Breadfruit on Floor
+  Event: 
+  EventPlayTrigger: 12
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1810727759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,5 +3420,4 @@ SceneRoots:
   - {fileID: 1703868040}
   - {fileID: 2063945752}
   - {fileID: 736102127}
-  - {fileID: 598052832}
   - {fileID: 1217190982}
