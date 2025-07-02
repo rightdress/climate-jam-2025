@@ -15,7 +15,7 @@ public class T3A_HiddenObject : MonoBehaviour
         _spriteRenderer.material = new Material(_spriteRenderer.material);
 
         // Set object to be grey
-        _spriteRenderer.material.SetFloat("_Greyscale", 1f);
+        _spriteRenderer.material.SetFloat("_TransitionAmount", 1f);
     }
 
     public void OnClicked()
@@ -24,7 +24,7 @@ public class T3A_HiddenObject : MonoBehaviour
         GameManager.ItemFound();
 
         // Set object to be colourful
-        _spriteRenderer.material.SetFloat("_Greyscale", 0f);
+        _spriteRenderer.material.SetFloat("_TransitionAmount", 0f);
 
         // Update hintbox text
         GameManager.UpdateHintBox(HintBoxText);
