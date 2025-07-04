@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8621072008003805265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Rainwater Tank
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Rainwater Tank
+  Guid:
+    Data1: 844994043
+    Data2: 1230674458
+    Data3: -326851441
+    Data4: -879221682
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6659118076565326355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,11 +69,65 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638869069504529467
+  lastModified: 638864726252608489
   FileSizes:
   - Name: Desktop
     Value: 1046
   Exists: 1
+--- !u!114 &-4612496381059003886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Desalination Solar System
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Desalination Solar System
+  Guid:
+    Data1: 1463800963
+    Data2: 1167197510
+    Data3: -1125113690
+    Data4: 948606089
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4004287710279734980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Gas Can
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Gas Can
+  Guid:
+    Data1: -221737256
+    Data2: 1300703187
+    Data3: 202638012
+    Data4: 1799679836
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2580513203116607699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,12 +235,17 @@ MonoBehaviour:
   - {fileID: 3171832598049052178}
   - {fileID: 4750350502887691658}
   - {fileID: -2580513203116607699}
+  - {fileID: 4237556766700840529}
+  - {fileID: -4612496381059003886}
+  - {fileID: 5351993663817099590}
+  - {fileID: -4004287710279734980}
+  - {fileID: -8621072008003805265}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6794466243382668984}
   StringsBanks:
   - {fileID: 537640464328472060}
-  cacheTime: 638869069504539397
+  cacheTime: 638871772670356771
   cacheVersion: 131625
 --- !u!114 &537640464328472060
 MonoBehaviour:
@@ -176,10 +262,10 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638869069504519386
+  lastModified: 638871772669708676
   FileSizes:
   - Name: Desktop
-    Value: 1502
+    Value: 1738
   Exists: 1
 --- !u!114 &3171832598049052178
 MonoBehaviour:
@@ -208,6 +294,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1229
+--- !u!114 &4237556766700840529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Young Mangrove Plant
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Young Mangrove Plant
+  Guid:
+    Data1: 733601066
+    Data2: 1164586634
+    Data3: 38511022
+    Data4: -1909882071
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4750350502887691658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +348,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 24410
+--- !u!114 &5351993663817099590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Te Bulbui Leaf
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Te Bulbui Leaf
+  Guid:
+    Data1: -782618425
+    Data2: 1093828020
+    Data3: -1384032880
+    Data4: -130032883
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5431593022651343030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,10 +390,10 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638869069504539397
+  lastModified: 638871772670356771
   FileSizes:
   - Name: Desktop
-    Value: 54080
+    Value: 56576
   Exists: 1
 --- !u!114 &5581345526680876138
 MonoBehaviour:
@@ -270,7 +410,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 638869069504509369
+  lastModified: 638864730474569818
   FileSizes:
   - Name: Desktop
     Value: 842336
@@ -290,7 +430,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638869069504519386
+  lastModified: 638871772669695183
   FileSizes:
   - Name: Desktop
     Value: 1744
