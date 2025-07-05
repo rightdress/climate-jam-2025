@@ -26,7 +26,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1057
 --- !u!114 &-6659118076565326355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638864726252608489
+  lastModified: 638872594850661189
   FileSizes:
   - Name: Desktop
     Value: 1046
@@ -100,7 +100,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 509
+--- !u!114 &-4510299676315198002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Kiribati Pronunciation
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Kiribati Pronunciation
+  Guid:
+    Data1: -1331433122
+    Data2: 1191461137
+    Data3: 1441697676
+    Data4: -1516345004
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1191
 --- !u!114 &-4004287710279734980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +154,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 400
+--- !u!114 &-3637564291056005466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Button Click
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Button Click
+  Guid:
+    Data1: -179681304
+    Data2: 1140423583
+    Data3: -282449487
+    Data4: 334830879
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 525
 --- !u!114 &-2580513203116607699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,12 +294,16 @@ MonoBehaviour:
   - {fileID: 5351993663817099590}
   - {fileID: -4004287710279734980}
   - {fileID: -8621072008003805265}
+  - {fileID: 7956590918612924264}
+  - {fileID: -4510299676315198002}
+  - {fileID: 4427961954925312243}
+  - {fileID: -3637564291056005466}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6794466243382668984}
   StringsBanks:
   - {fileID: 537640464328472060}
-  cacheTime: 638871772670356771
+  cacheTime: 638872594850736298
   cacheVersion: 131625
 --- !u!114 &537640464328472060
 MonoBehaviour:
@@ -262,10 +320,10 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638871772669708676
+  lastModified: 638872594850651100
   FileSizes:
   - Name: Desktop
-    Value: 1738
+    Value: 1942
   Exists: 1
 --- !u!114 &3171832598049052178
 MonoBehaviour:
@@ -320,7 +378,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1881
+--- !u!114 &4427961954925312243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Hint
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Hint
+  Guid:
+    Data1: -1216144460
+    Data2: 1154226826
+    Data3: 202063777
+    Data4: -1148018416
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
 --- !u!114 &4750350502887691658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +459,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 800
 --- !u!114 &5431593022651343030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,10 +475,10 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638871772670356771
+  lastModified: 638872594850736298
   FileSizes:
   - Name: Desktop
-    Value: 56576
+    Value: 1898624
   Exists: 1
 --- !u!114 &5581345526680876138
 MonoBehaviour:
@@ -410,7 +495,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 638864730474569818
+  lastModified: 638872594850635999
   FileSizes:
   - Name: Desktop
     Value: 842336
@@ -430,11 +515,38 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638871772669695183
+  lastModified: 638869069504519386
   FileSizes:
   - Name: Desktop
     Value: 1744
   Exists: 1
+--- !u!114 &7956590918612924264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambience/Island
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambience/Island
+  Guid:
+    Data1: 1268329515
+    Data2: 1164414545
+    Data3: -1184153953
+    Data4: -1721245941
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121600
 --- !u!114 &8851507891973054530
 MonoBehaviour:
   m_ObjectHideFlags: 0
