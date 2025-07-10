@@ -583,11 +583,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 844994043
+      Data2: 1230674458
+      Data3: -326851441
+      Data4: -879221682
+    Path: event:/SFX/Item Pick-up/Rainwater Tank
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -731,11 +731,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -221737256
+      Data2: 1300703187
+      Data3: 202638012
+      Data4: 1799679836
+    Path: event:/SFX/Item Pick-up/Gas Can
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -1115,7 +1115,7 @@ Transform:
   m_GameObject: {fileID: 496330906}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 457.035, z: -9719.554}
+  m_LocalPosition: {x: -606, y: 457.035, z: -9719.554}
   m_LocalScale: {x: 83.99969, y: 66.38899, z: 107.99504}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1315,7 +1315,7 @@ Transform:
   m_GameObject: {fileID: 592092081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 457.035, z: -9719.554}
+  m_LocalPosition: {x: -606, y: 457.035, z: -9719.554}
   m_LocalScale: {x: 85.062965, y: 80.80982, z: 107.99504}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1376,6 +1376,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &617529443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617529445}
+  - component: {fileID: 617529444}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &617529444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617529443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56d86404d3091142ab8fab789712419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &617529445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617529443}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1067425349}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646017609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,7 +1702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 457}
+  m_AnchoredPosition: {x: -606, y: 457}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &753394887
@@ -2308,11 +2352,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 733601066
+      Data2: 1164586634
+      Data3: 38511022
+      Data4: -1909882071
+    Path: event:/SFX/Item Pick-up/Young Mangrove Plant
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -2322,8 +2366,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &995275708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,6 +2435,7 @@ Transform:
   m_Children:
   - {fileID: 646017610}
   - {fileID: 137413782}
+  - {fileID: 617529445}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1082024424
@@ -2602,6 +2647,7 @@ GameObject:
   - component: {fileID: 1279540207}
   - component: {fileID: 1279540206}
   - component: {fileID: 1279540205}
+  - component: {fileID: 1279540208}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2723,6 +2769,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279540203}
   m_CullTransparentMesh: 1
+--- !u!114 &1279540208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279540203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1216144460
+      Data2: 1154226826
+      Data3: 202063777
+      Data4: -1148018416
+    Path: event:/SFX/UI/Hint
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1281503101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,11 +3066,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1463800963
+      Data2: 1167197510
+      Data3: -1125113690
+      Data4: 948606089
+    Path: event:/SFX/Item Pick-up/Desalination Solar System
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -3175,7 +3252,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1458340484}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 617529444}
+        m_TargetAssemblyTypeName: T3A_Controller, Assembly-CSharp
+        m_MethodName: NextScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Assets/T3A_Scenes/T3A_MainMenu.unity
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1458340484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3229,11 +3318,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -179681304
+      Data2: 1140423583
+      Data3: -282449487
+      Data4: 334830879
+    Path: event:/SFX/UI/Button Click
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -3914,7 +4003,7 @@ GameObject:
   - component: {fileID: 1705817983}
   - component: {fileID: 1705817982}
   m_Layer: 0
-  m_Name: Placeholder Background
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4120,11 +4209,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -782618425
+      Data2: 1093828020
+      Data3: -1384032880
+      Data4: -130032883
+    Path: event:/SFX/Item Pick-up/Te Bulbui Leaf
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -4527,6 +4616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2063945752}
+  - component: {fileID: 2063945753}
   m_Layer: 0
   m_Name: Art
   m_TagString: Untagged
@@ -4544,13 +4634,44 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1705817983}
   - {fileID: 2062071231}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2063945753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063945751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1268329515
+      Data2: 1164414545
+      Data3: -1184153953
+      Data4: -1721245941
+    Path: event:/SFX/Ambience/Island
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2106128321
 GameObject:
   m_ObjectHideFlags: 0
