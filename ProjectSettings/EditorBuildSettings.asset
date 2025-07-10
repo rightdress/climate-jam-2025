@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/T3A_Scenes/3A_HiddenObjectScene_Drought.unity
     guid: a6bcad4508640b246be0592c39d16bc9
+  - enabled: 1
+    path: Assets/T3A_Scenes/T3A_MainMenu.unity
+    guid: 992c8fcab86d41f4a9ff6508df97b939
+  - enabled: 1
+    path: Assets/T3A_Scenes/3A_HiddenObjectScene_ResilienceMethods.unity
+    guid: de0b6da638c89d34ebf30e05c6dd6dc9
+  - enabled: 1
+    path: Assets/T3A_Scenes/T3A_LevelSelection.unity
+    guid: 8d92616c42a1df34182ca599996ac335
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

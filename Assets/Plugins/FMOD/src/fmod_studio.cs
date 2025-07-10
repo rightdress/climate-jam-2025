@@ -2065,6 +2065,11 @@ namespace FMOD.Studio
             return hasHandle() && FMOD_Studio_Bank_IsValid(this.handle);
         }
 
+        public RESULT getBusList(out object myBuses)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
     }
 
