@@ -8,6 +8,9 @@ public class T3A_GameManager : MonoBehaviour
     public int TotalItems = 5;
     public Button NextLevelButton;
     public TextMeshProUGUI HintBoxText;
+    public GameObject DialogueBox;
+    public TextMeshProUGUI DialogueBoxTitle;
+    public TextMeshProUGUI DialogueBoxText;
 
     private int _itemsFound = 0;
 
@@ -15,6 +18,9 @@ public class T3A_GameManager : MonoBehaviour
     {
         // Hide next level button
         NextLevelButton.gameObject.SetActive(false);
+
+        // Hide dialogue popup
+        CloseDialogueBox();
 
         // Clear hintbox text
         UpdateHintBox("");
@@ -33,6 +39,18 @@ public class T3A_GameManager : MonoBehaviour
     public void UpdateHintBox(string text)
     {
         HintBoxText.text = text;
+    }
+
+    public void ShowDialogueBox(string title, string text)
+    {
+        DialogueBoxTitle.text = title;
+        DialogueBoxText.text = text;
+        DialogueBox.gameObject.SetActive(true);
+    }
+
+    public void CloseDialogueBox()
+    {
+        DialogueBox.gameObject.SetActive(false);
     }
 
     public void WiggleObject(GameObject obj)
