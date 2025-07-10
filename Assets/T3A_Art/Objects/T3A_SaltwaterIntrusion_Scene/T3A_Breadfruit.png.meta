@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5359b7ee4196b6b429b149fc4faa6385
+guid: 6fa575fcbf0b11f4a9d91b873a1184a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5004735228448968945
-    second: T3A_Placeholder_Bicycle_0
+      213: -7790059508939248232
+    second: T3A_Breadfruit_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: T3A_Placeholder_Bicycle_0
+      name: T3A_Breadfruit_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 54
-        width: 148
-        height: 90
+        x: 18
+        y: 0
+        width: 134
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f0959e8c24647540800000000000000
-      internalID: 5004735228448968945
+      spriteID: 89da58e662624e390800000000000000
+      internalID: -7790059508939248232
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      T3A_Placeholder_Bicycle_0: 5004735228448968945
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
