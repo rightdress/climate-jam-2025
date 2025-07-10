@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_Bicycle_0: 8971258787112349767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

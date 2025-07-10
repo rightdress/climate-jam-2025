@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_Rainwater_Tank_Harvest_System_0: -6032094333406245393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

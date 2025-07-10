@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_Breadfruit_0: -7790059508939248232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

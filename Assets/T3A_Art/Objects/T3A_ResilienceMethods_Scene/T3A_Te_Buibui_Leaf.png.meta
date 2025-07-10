@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_Te_Buibui_Leaf_0: -4731159045080134120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
