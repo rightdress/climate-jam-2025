@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class T3A_SoundManager : MonoBehaviour
 {
+    // Make it so that the DoNotDestroy gameobject (and all of its children, including the options menu and music) persist between scenes
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     /*
     FMOD.Studio.VCA Master;
     FMOD.Studio.VCA SFX;

@@ -3,12 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class T3A_Controller : MonoBehaviour
 {
-    // Make it so that the controller gameobject (and all of its children, including the options menu) persist between scenes
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     public void NextScene(string scene)
     {
         SceneManager.LoadScene(scene);

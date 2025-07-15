@@ -734,8 +734,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: T3A_MainMenu_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1074147513}
+        m_TargetAssemblyTypeName: T3A_Controller, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -2801,7 +2801,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023614195}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed1091534d71ce84d932942982370dec, type: 3}
   m_Name: 
@@ -3179,8 +3179,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: T3A_MainMenu_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1074147513}
+        m_TargetAssemblyTypeName: T3A_Controller, Assembly-CSharp
         m_MethodName: ShowPopup
         m_Mode: 2
         m_Arguments:
@@ -4837,8 +4837,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: T3A_MainMenu_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1074147513}
+        m_TargetAssemblyTypeName: T3A_Controller, Assembly-CSharp
         m_MethodName: NextScene
         m_Mode: 5
         m_Arguments:
