@@ -3,8 +3,13 @@ using UnityEngine.InputSystem;
 
 public class T3A_ClickManager : MonoBehaviour
 {
-    public Vector2 minBounds;
-    public Vector2 maxBounds;
+    [Header("Camera zoom limits")]
+    public float minZoom;
+    public float maxZoom;
+
+    [Header("Camera bounds")]
+    [SerializeField] private Vector2 _minBounds;
+    [SerializeField] private Vector2 _maxBounds;
 
     Camera _camera;
     private Vector2 _dragOrigin;
@@ -13,12 +18,14 @@ public class T3A_ClickManager : MonoBehaviour
     private void Awake()
     {
         _camera = Camera.main;
+        CalculateCameraBounds();
     }
 
     private void Update()
     {
         Mouse mouse = Mouse.current;
 
+        // Handle clicks (looking for hidden objects)
         if (mouse.leftButton.wasPressedThisFrame)
         {
             Vector2 mousePosition = mouse.position.ReadValue();
@@ -37,6 +44,26 @@ public class T3A_ClickManager : MonoBehaviour
             }
         }
 
+        // Handle zoom (changing scene size)
+        float scroll = mouse.scroll.ReadValue().y;
+
+        if (Mathf.Abs(scroll) > 0.01f)
+        {
+            // Change size of camera
+            _camera.orthographicSize -= scroll; //TODO: setting to reverse direction of mouse scroll?
+            _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, minZoom, maxZoom);
+
+            // Set new camera bounds according to orthographic size
+            CalculateCameraBounds();
+
+            // Clamp camera between new camera bounds
+            Vector3 clampedPosition = _camera.transform.position;
+            clampedPosition.x = Mathf.Clamp(clampedPosition.x, _minBounds.x, _maxBounds.x);
+            clampedPosition.y = Mathf.Clamp(clampedPosition.y, _minBounds.y, _maxBounds.y);
+            _camera.transform.position = clampedPosition;
+        }
+
+        // Handle drag (moving around scene)
         if (mouse.middleButton.wasPressedThisFrame)
         {
             Vector2 mousePosition = mouse.position.ReadValue();
@@ -55,8 +82,10 @@ public class T3A_ClickManager : MonoBehaviour
             Vector3 newPosition = _camera.transform.position + new Vector3(difference.x, difference.y, 0);
 
             // Clamp camera within defined bounds
-            newPosition.x = Mathf.Clamp(newPosition.x, minBounds.x, maxBounds.x);
-            newPosition.y = Mathf.Clamp(newPosition.y, minBounds.y, maxBounds.y);
+            newPosition.x = Mathf.Clamp(newPosition.x, _minBounds.x, _maxBounds.x);
+            newPosition.y = Mathf.Clamp(newPosition.y, _minBounds.y, _maxBounds.y);
+
+            // Set camera position
             _camera.transform.position = newPosition;
 
             // Reset mouse position
@@ -67,5 +96,13 @@ public class T3A_ClickManager : MonoBehaviour
         {
             _isDragging = false;
         }
+    }
+
+    private void CalculateCameraBounds()
+    {
+        float orthographicSize = _camera.orthographicSize;
+        float aspectRatio = _camera.aspect;
+        _minBounds = new Vector2((-maxZoom + orthographicSize) * aspectRatio, -maxZoom + orthographicSize);
+        _maxBounds = new Vector2((maxZoom - orthographicSize) * aspectRatio, maxZoom - orthographicSize);
     }
 }
