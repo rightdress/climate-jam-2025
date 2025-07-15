@@ -4,12 +4,14 @@ using UnityEngine.InputSystem;
 public class T3A_ClickManager : MonoBehaviour
 {
     [Header("Camera zoom limits")]
-    public float minZoom;
-    public float maxZoom;
+    public float MinZoom;
+    public float MaxZoom;
 
     [Header("Camera bounds")]
     [SerializeField] private Vector2 _minBounds;
     [SerializeField] private Vector2 _maxBounds;
+
+    public T3A_CursorManager CursorManager;
 
     Camera _camera;
     private Vector2 _dragOrigin;
@@ -28,6 +30,9 @@ public class T3A_ClickManager : MonoBehaviour
         // Handle clicks (looking for hidden objects)
         if (mouse.leftButton.wasPressedThisFrame)
         {
+            // Change cursor
+            CursorManager.ChangeCursor("gameclicked");
+
             Vector2 mousePosition = mouse.position.ReadValue();
             Vector2 worldPoint = _camera.ScreenToWorldPoint(mousePosition);
 
@@ -44,6 +49,12 @@ public class T3A_ClickManager : MonoBehaviour
             }
         }
 
+        if (mouse.leftButton.wasReleasedThisFrame)
+        {
+            // Change cursor
+            CursorManager.ChangeCursor("game");
+        }
+
         // Handle zoom (changing scene size)
         float scroll = mouse.scroll.ReadValue().y;
 
@@ -51,7 +62,7 @@ public class T3A_ClickManager : MonoBehaviour
         {
             // Change size of camera
             _camera.orthographicSize -= scroll; //TODO: setting to reverse direction of mouse scroll?
-            _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, minZoom, maxZoom);
+            _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, MinZoom, MaxZoom);
 
             // Set new camera bounds according to orthographic size
             CalculateCameraBounds();
@@ -69,6 +80,9 @@ public class T3A_ClickManager : MonoBehaviour
             Vector2 mousePosition = mouse.position.ReadValue();
             _dragOrigin = _camera.ScreenToWorldPoint(mousePosition);
             _isDragging = true;
+
+            // Change cursor
+            CursorManager.ChangeCursor("drag");
         }
 
         if (mouse.middleButton.isPressed && _isDragging)
@@ -95,6 +109,9 @@ public class T3A_ClickManager : MonoBehaviour
         if (mouse.middleButton.wasReleasedThisFrame)
         {
             _isDragging = false;
+
+            // Change cursor
+            CursorManager.ChangeCursor("game");
         }
     }
 
@@ -102,7 +119,7 @@ public class T3A_ClickManager : MonoBehaviour
     {
         float orthographicSize = _camera.orthographicSize;
         float aspectRatio = _camera.aspect;
-        _minBounds = new Vector2((-maxZoom + orthographicSize) * aspectRatio, -maxZoom + orthographicSize);
-        _maxBounds = new Vector2((maxZoom - orthographicSize) * aspectRatio, maxZoom - orthographicSize);
+        _minBounds = new Vector2((-MaxZoom + orthographicSize) * aspectRatio, -MaxZoom + orthographicSize);
+        _maxBounds = new Vector2((MaxZoom - orthographicSize) * aspectRatio, MaxZoom - orthographicSize);
     }
 }

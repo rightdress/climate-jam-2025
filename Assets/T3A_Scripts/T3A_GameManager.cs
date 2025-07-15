@@ -11,6 +11,7 @@ public class T3A_GameManager : MonoBehaviour
     public GameObject DialogueBox;
     public TextMeshProUGUI DialogueBoxTitle;
     public TextMeshProUGUI DialogueBoxText;
+    public T3A_CursorManager CursorManager;
 
     private int _itemsFound = 0;
 
@@ -38,6 +39,16 @@ public class T3A_GameManager : MonoBehaviour
 
     public void UpdateHintBox(string text)
     {
+        if (text == "")
+        {
+            CursorManager.ChangeCursor("game");
+        }
+
+        else
+        {
+            CursorManager.ChangeCursor("hinthover");
+        }
+        
         HintBoxText.text = text;
     }
 

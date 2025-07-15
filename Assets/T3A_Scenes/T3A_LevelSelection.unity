@@ -378,6 +378,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56d86404d3091142ab8fab789712419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &417680897
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2118281809}
+    m_Modifications:
+    - target: {fileID: 944296850926642717, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_Name
+      value: Cursor Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.39999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13173999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+--- !u!4 &417680898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4041097113105274340, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+  m_PrefabInstance: {fileID: 417680897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &509485172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,11 +1398,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1451829611}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 324249766}
+        m_TargetAssemblyTypeName: T3A_Controller, Assembly-CSharp
+        m_MethodName: NextScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_RisingSeaLevels.unity
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1451829611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1938,6 +2012,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 324249765}
+  - {fileID: 417680898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
