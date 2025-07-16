@@ -44,8 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfe09647d38fd6408f98239aaa9f51b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultCursor: {fileID: 2800000, guid: 8a0c4802136ea574a87312dd6b0736a2, type: 3}
+  DefaultCursor: {fileID: 2800000, guid: 5e4caf5d341393f428e9f340eff56176, type: 3}
   DefaultClickedCursor: {fileID: 2800000, guid: 2b45b672d7f66ed41a1733143e7a14cd, type: 3}
+  ButtonHoverCursor: {fileID: 2800000, guid: 349b8562d3cfaaa46bf5afaddcd9d17b, type: 3}
+  ButtonClickedCursor: {fileID: 2800000, guid: 39162c3f458ccdf4b9b2db41eb44d61e, type: 3}
   GameCursor: {fileID: 2800000, guid: 98bc2015dcfa5614ba39ef0df9eb1ed9, type: 3}
   GameClickedCursor: {fileID: 2800000, guid: 5006078fd982a4b43b284651acea8d5f, type: 3}
   DragCursor: {fileID: 2800000, guid: bf21c39eac58f824dbf0ff0019f79b42, type: 3}

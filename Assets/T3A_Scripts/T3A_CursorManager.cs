@@ -4,6 +4,8 @@ public class T3A_CursorManager : MonoBehaviour
 {
     public Texture2D DefaultCursor;
     public Texture2D DefaultClickedCursor;
+    public Texture2D ButtonHoverCursor;
+    public Texture2D ButtonClickedCursor;
     public Texture2D GameCursor;
     public Texture2D GameClickedCursor;
     public Texture2D DragCursor;
@@ -11,6 +13,8 @@ public class T3A_CursorManager : MonoBehaviour
     public Texture2D ZoomCursor;
 
     public bool isGameScene;
+
+    private string _style;
 
     void Start()
     {
@@ -24,19 +28,30 @@ public class T3A_CursorManager : MonoBehaviour
         }
     }
 
+    public string GetCursorStyle()
+    {
+        return _style;
+    }
+
     private void SetCursor(Texture2D cursorTexture)
     {
         Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
     }
 
-    public void ChangeCursor(string state)
+    public void ChangeCursor(string style)
     {
-        switch (state.ToLower()) {
+        switch (style.ToLower()) {
             case "default":
                 SetCursor(DefaultCursor);
                 break;
             case "defaultclicked":
                 SetCursor(DefaultClickedCursor);
+                break;
+            case "buttonhover":
+                SetCursor(ButtonHoverCursor);
+                break;
+            case "buttonclicked":
+                SetCursor(ButtonClickedCursor);
                 break;
             case "game":
                 SetCursor(GameCursor);

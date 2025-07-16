@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class T3A_ClickManager : MonoBehaviour
@@ -12,6 +13,7 @@ public class T3A_ClickManager : MonoBehaviour
     [SerializeField] private Vector2 _maxBounds;
 
     public T3A_CursorManager CursorManager;
+    public GameObject ObjectMenu;
 
     Camera _camera;
     private Vector2 _dragOrigin;
@@ -26,6 +28,12 @@ public class T3A_ClickManager : MonoBehaviour
     private void Update()
     {
         Mouse mouse = Mouse.current;
+
+        // Cursor changes relating to hovering and clicking on UI elements are handled in the inspector through Event Triggers
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
 
         // Handle clicks (looking for hidden objects)
         if (mouse.leftButton.wasPressedThisFrame)
