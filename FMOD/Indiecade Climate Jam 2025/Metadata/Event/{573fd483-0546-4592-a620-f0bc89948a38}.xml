@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{573fd483-0546-4592-a620-f0bc89948a38}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Desalination Solar System</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{59f9f923-ee20-49f3-bfd8-a45c9d11a366}</destination>
+			<destination>{f0bacc58-c1c4-438d-8c12-97d615827fe9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{907f0c35-22f9-4293-afc8-1ec1d881a324}</destination>

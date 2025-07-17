@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/T3A_Scenes/T3A_LevelSelection.unity
     guid: 8d92616c42a1df34182ca599996ac335
-  - enabled: 1
+  - enabled: 0
     path: Assets/T3A_Scenes/Unused/T3A_HiddenObjectScene_3_SaltwaterIntrusion.unity
     guid: ffe3a5fa172f52d48a99b029b298ab42
   - enabled: 1
@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/T3A_Scenes/T3A_HiddenObjectScene_5_ResilienceMethods.unity
     guid: 6070cd92ffdf9c145ba61c2bc57bfd29
+  - enabled: 1
+    path: Assets/T3A_Scenes/T3A_HiddenObjectScene_3_SaltwaterIntrusion.unity
+    guid: c07ec9643abe66746bc8a4bd12ae7899
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

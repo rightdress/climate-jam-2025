@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8b334170-c9e9-4d90-8d78-a1c94ec99f5f}">
+		<property name="assetPath">
+			<value>summer-insects-243572.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>118.248</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dca760f-634d-4bb7-abb3-90a29b473979}</destination>
+		</relationship>
+	</object>
+</objects>

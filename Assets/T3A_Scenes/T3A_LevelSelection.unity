@@ -783,7 +783,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_ResilienceMethods.unity
+          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_5_ResilienceMethods.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &988061959
@@ -994,7 +994,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_SaltwaterIntrusion.unity
+          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_3_SaltwaterIntrusion.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1027453261
@@ -1311,7 +1311,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_Introduction.unity
+          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_1_Introduction.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1261001129
@@ -1658,7 +1658,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_RisingSeaLevels.unity
+          m_StringArgument: Assets/T3A_Scenes/T3A_HiddenObjectScene_2_RisingSeaLevels.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1451829611

@@ -276,11 +276,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1706848648
-      Data2: 1230307597
-      Data3: 904408752
-      Data4: 1365363815
-    Path: event:/SFX/Item Pick-up/Potted Plant
+      Data1: -1204673573
+      Data2: 1264300091
+      Data3: 1742481570
+      Data4: 1286091348
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Bicycle
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -1079,7 +1079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 880465198580706601, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_text
-      value: Rising Sea Levels in Kiribati
+      value: Effects of Drought in South Tarawa
       objectReference: {fileID: 0}
     - target: {fileID: 1133564331401793858, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Name
@@ -1711,11 +1711,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -221737256
-      Data2: 1300703187
-      Data3: 202638012
-      Data4: 1799679836
-    Path: event:/SFX/Item Pick-up/Gas Can
+      Data1: -1706848648
+      Data2: 1230307597
+      Data3: 904408752
+      Data4: 1365363815
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Potted Plant
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -1881,6 +1881,69 @@ MonoBehaviour:
   DialogueBoxTitle: {fileID: 719285192}
   DialogueBoxText: {fileID: 1740373694}
   CursorManager: {fileID: 1211358124}
+--- !u!1 &678762745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678762747}
+  - component: {fileID: 678762746}
+  m_Layer: 0
+  m_Name: Ambiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &678762746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678762745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1243272577
+      Data2: 1205806075
+      Data3: -1197515591
+      Data4: 1485981173
+    Path: event:/SFX/Ambience/Saltwater Intrusion Scene
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &678762747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678762745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3505, y: -0.32271, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &681917965
 GameObject:
   m_ObjectHideFlags: 0
@@ -2538,7 +2601,7 @@ MonoBehaviour:
       Data2: 1324646289
       Data3: 423180453
       Data4: -1977550813
-    Path: event:/SFX/Item Pick-up/Breadfruit on Floor
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Breadfruit on Floor
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -2932,7 +2995,7 @@ MonoBehaviour:
       Data2: 1148324725
       Data3: -1508239959
       Data4: 608397147
-    Path: event:/SFX/Item Pick-up/Plastic Bucket
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Plastic Bucket
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -3206,7 +3269,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1825840108}
-  - component: {fileID: 1825840109}
   m_Layer: 0
   m_Name: Object Colliders
   m_TagString: Untagged
@@ -3233,37 +3295,6 @@ Transform:
   - {fileID: 114634848}
   m_Father: {fileID: 89000811}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1825840109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825840107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1268329515
-      Data2: 1164414545
-      Data3: -1184153953
-      Data4: -1721245941
-    Path: event:/SFX/Ambience/Island
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &2100995863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7972544798032498646, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
@@ -3275,6 +3306,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1067425349}
   - {fileID: 1703868040}
+  - {fileID: 678762747}
   - {fileID: 89000811}
   - {fileID: 570574672}
   - {fileID: 1217190982}

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d15a30c7-7db4-4132-9055-81ad0ddb3ff8}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Te Bulbui Leaf</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{59f9f923-ee20-49f3-bfd8-a45c9d11a366}</destination>
+			<destination>{f0bacc58-c1c4-438d-8c12-97d615827fe9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{76fab2b1-d678-427c-af25-6a718c10eaa3}</destination>

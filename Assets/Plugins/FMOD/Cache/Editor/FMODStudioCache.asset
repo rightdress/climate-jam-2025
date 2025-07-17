@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8621072008003805265
+--- !u!114 &-7965118477491566212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Rainwater Tank
+  m_Name: event:/SFX/Item Pick-up/Introduction/Ruler
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Rainwater Tank
+  Path: event:/SFX/Item Pick-up/Introduction/Ruler
   Guid:
-    Data1: 844994043
-    Data2: 1230674458
-    Data3: -326851441
-    Data4: -879221682
+    Data1: 804294723
+    Data2: 1162684830
+    Data3: -794106996
+    Data4: -517173352
   Banks:
   - {fileID: 5431593022651343030}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1057
---- !u!114 &-6659118076565326355
+  Length: 1200
+--- !u!114 &-7494115291662372384
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,23 +37,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Breadfruit on Floor
+  m_Name: event:/SFX/Ambience/Resilience Methods
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Breadfruit on Floor
+  Path: event:/SFX/Ambience/Resilience Methods
   Guid:
-    Data1: 1987248348
-    Data2: 1324646289
-    Data3: 423180453
-    Data4: -1977550813
+    Data1: -1782198748
+    Data2: 1086275110
+    Data3: 624339641
+    Data4: 1512873787
   Banks:
   - {fileID: 5431593022651343030}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 603
+  Length: 132000
+--- !u!114 &-6030025288205083716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambience/Impacted Livelihoods
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambience/Impacted Livelihoods
+  Guid:
+    Data1: -341410527
+    Data2: 1241325083
+    Data3: 446989720
+    Data4: 367888110
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600084
 --- !u!114 &-6008539394631543057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,12 +96,12 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638872594850661189
+  lastModified: 638883116222384183
   FileSizes:
   - Name: Desktop
-    Value: 1046
+    Value: 8490656
   Exists: 1
---- !u!114 &-4612496381059003886
+--- !u!114 &-5940381792820158393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,9 +111,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Desalination Solar System
+  m_Name: event:/SFX/Item Pick-up/Impacted Livelihoods/Fishing Rod
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Desalination Solar System
+  Path: event:/SFX/Item Pick-up/Impacted Livelihoods/Fishing Rod
+  Guid:
+    Data1: 351850093
+    Data2: 1118503025
+    Data3: -242309459
+    Data4: 172013788
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3432
+--- !u!114 &-5646924792536531260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Resilience Methods/Desalination Solar System
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Resilience Methods/Desalination Solar System
   Guid:
     Data1: 1463800963
     Data2: 1167197510
@@ -101,6 +155,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 509
+--- !u!114 &-5341258487405717910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Rising Sea Levels/Sandbag
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Rising Sea Levels/Sandbag
+  Guid:
+    Data1: 1519729156
+    Data2: 1123235106
+    Data3: -612524115
+    Data4: 1028128604
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 966
 --- !u!114 &-4510299676315198002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +209,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1191
---- !u!114 &-4004287710279734980
+--- !u!114 &-4093939702811293760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,23 +219,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Gas Can
+  m_Name: event:/SFX/Ambience/Saltwater Intrusion Scene
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Gas Can
+  Path: event:/SFX/Ambience/Saltwater Intrusion Scene
   Guid:
-    Data1: -221737256
-    Data2: 1300703187
-    Data3: 202638012
-    Data4: 1799679836
+    Data1: -1243272577
+    Data2: 1205806075
+    Data3: -1197515591
+    Data4: 1485981173
   Banks:
-  - {fileID: 5431593022651343030}
-  IsStream: 0
+  - {fileID: -6008539394631543057}
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 400
+  Length: 132000
 --- !u!114 &-3637564291056005466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +263,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 525
+--- !u!114 &-3581479443663451088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Resilience Methods/Gas Can
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Resilience Methods/Gas Can
+  Guid:
+    Data1: -221737256
+    Data2: 1300703187
+    Data3: 202638012
+    Data4: 1799679836
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-2902250697538211540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Gameplay Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Gameplay Music
+  Guid:
+    Data1: 526016805
+    Data2: 1311126743
+    Data3: -847792238
+    Data4: 839980642
+  Banks:
+  - {fileID: -6008539394631543057}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150528
 --- !u!114 &-2580513203116607699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +344,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 21895
---- !u!114 &-72389913053162271
+--- !u!114 &-2487798059707405370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,9 +354,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Potted Plant
+  m_Name: event:/SFX/Item Pick-up/Resilience Methods/Te Bulbui Leaf
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Potted Plant
+  Path: event:/SFX/Item Pick-up/Resilience Methods/Te Bulbui Leaf
+  Guid:
+    Data1: -782618425
+    Data2: 1093828020
+    Data3: -1384032880
+    Data4: -130032883
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-2304830708077446987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Saltwater Intrusion/Potted Plant
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Potted Plant
   Guid:
     Data1: -1706848648
     Data2: 1230307597
@@ -236,7 +398,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 617
---- !u!114 &-65698072652741646
+--- !u!114 &-1619541668358106212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,23 +408,77 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Prototype Scene
+  m_Name: event:/SFX/Ambience/Rising Sea Levels Scene
   m_EditorClassIdentifier: 
-  Path: event:/Music/Prototype Scene
+  Path: event:/SFX/Ambience/Rising Sea Levels Scene
   Guid:
-    Data1: -298075616
-    Data2: 1301380388
-    Data3: 1389845393
-    Data4: 2113702203
+    Data1: -2081530478
+    Data2: 1132520149
+    Data3: -1090856783
+    Data4: 313078688
   Banks:
-  - {fileID: -6008539394631543057}
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121600
+--- !u!114 &-572761051705906978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Rising Sea Levels/Tide Calendar
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Rising Sea Levels/Tide Calendar
+  Guid:
+    Data1: -190071804
+    Data2: 1212656392
+    Data3: -1631699583
+    Data4: -1931763203
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-129586305318403882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Introduction/33
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Introduction/33
+  Guid:
+    Data1: 2011369808
+    Data2: 1339693628
+    Data3: -548949837
+    Data4: -2045341794
+  Banks:
+  - {fileID: 5431593022651343030}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1100
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,29 +498,100 @@ MonoBehaviour:
   - {fileID: -6008539394631543057}
   - {fileID: 5431593022651343030}
   EditorEvents:
-  - {fileID: 8851507891973054530}
-  - {fileID: -72389913053162271}
-  - {fileID: -6659118076565326355}
-  - {fileID: -65698072652741646}
-  - {fileID: 3171832598049052178}
   - {fileID: 4750350502887691658}
   - {fileID: -2580513203116607699}
-  - {fileID: 4237556766700840529}
-  - {fileID: -4612496381059003886}
-  - {fileID: 5351993663817099590}
-  - {fileID: -4004287710279734980}
-  - {fileID: -8621072008003805265}
   - {fileID: 7956590918612924264}
   - {fileID: -4510299676315198002}
   - {fileID: 4427961954925312243}
   - {fileID: -3637564291056005466}
+  - {fileID: -2902250697538211540}
+  - {fileID: -4093939702811293760}
+  - {fileID: -5341258487405717910}
+  - {fileID: -572761051705906978}
+  - {fileID: 7969753677874210178}
+  - {fileID: 7838228934760049531}
+  - {fileID: -6030025288205083716}
+  - {fileID: -7494115291662372384}
+  - {fileID: 2351453210600271568}
+  - {fileID: 4911957112875442647}
+  - {fileID: -7965118477491566212}
+  - {fileID: -129586305318403882}
+  - {fileID: -5940381792820158393}
+  - {fileID: 7241739054006562368}
+  - {fileID: -2304830708077446987}
+  - {fileID: 483799050742601424}
+  - {fileID: 352791999209901802}
+  - {fileID: -5646924792536531260}
+  - {fileID: 3056209955251760121}
+  - {fileID: -1619541668358106212}
+  - {fileID: 873900859234307428}
+  - {fileID: 2568046293362055957}
+  - {fileID: -2487798059707405370}
+  - {fileID: -3581479443663451088}
+  - {fileID: 7338497186072669083}
+  - {fileID: 3206412754874846320}
+  - {fileID: 974419541276782007}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6794466243382668984}
   StringsBanks:
   - {fileID: 537640464328472060}
-  cacheTime: 638872594850736298
+  cacheTime: 638883116543090394
   cacheVersion: 131625
+--- !u!114 &352791999209901802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Impacted Livelihoods/Food at Side of Boat
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Impacted Livelihoods/Food at Side of Boat
+  Guid:
+    Data1: -1760412037
+    Data2: 1282827800
+    Data3: -1175997277
+    Data4: 1828340059
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3624
+--- !u!114 &483799050742601424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Saltwater Intrusion/Newspaper
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Newspaper
+  Guid:
+    Data1: 481959034
+    Data2: 1151211796
+    Data3: 742324400
+    Data4: 1417748288
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1229
 --- !u!114 &537640464328472060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,12 +607,12 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638872594850651100
+  lastModified: 638883116121309566
   FileSizes:
   - Name: Desktop
-    Value: 1942
+    Value: 3028
   Exists: 1
---- !u!114 &3171832598049052178
+--- !u!114 &873900859234307428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,14 +622,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Newspaper
+  m_Name: event:/SFX/Item Pick-up/Introduction/Calculator
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Newspaper
+  Path: event:/SFX/Item Pick-up/Introduction/Calculator
   Guid:
-    Data1: 481959034
-    Data2: 1151211796
-    Data3: 742324400
-    Data4: 1417748288
+    Data1: 469433502
+    Data2: 1226131486
+    Data3: -634225266
+    Data4: -27824542
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &974419541276782007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Resilience Methods/Rainwater Tank
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Resilience Methods/Rainwater Tank
+  Guid:
+    Data1: 844994043
+    Data2: 1230674458
+    Data3: -326851441
+    Data4: -879221682
   Banks:
   - {fileID: 5431593022651343030}
   IsStream: 0
@@ -351,8 +665,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1229
---- !u!114 &4237556766700840529
+  Length: 1057
+--- !u!114 &2351453210600271568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,9 +676,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Young Mangrove Plant
+  m_Name: event:/SFX/Item Pick-up/Resilience Methods/Young Mangrove Plant
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Young Mangrove Plant
+  Path: event:/SFX/Item Pick-up/Resilience Methods/Young Mangrove Plant
   Guid:
     Data1: 733601066
     Data2: 1164586634
@@ -379,6 +693,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1881
+--- !u!114 &2568046293362055957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Impacted Livelihoods/Fishing Net
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Impacted Livelihoods/Fishing Net
+  Guid:
+    Data1: -1859244107
+    Data2: 1078106779
+    Data3: -432537203
+    Data4: 1958525803
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1920
+--- !u!114 &3056209955251760121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Rising Sea Levels/Container
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Rising Sea Levels/Container
+  Guid:
+    Data1: 1721485455
+    Data2: 1149155865
+    Data3: -283821140
+    Data4: 2033422893
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1272
+--- !u!114 &3206412754874846320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Saltwater Intrusion/Breadfruit on Floor
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Breadfruit on Floor
+  Guid:
+    Data1: 1987248348
+    Data2: 1324646289
+    Data3: 423180453
+    Data4: -1977550813
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 603
 --- !u!114 &4427961954925312243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +828,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 24410
---- !u!114 &5351993663817099590
+--- !u!114 &4911957112875442647
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,23 +838,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Te Bulbui Leaf
+  m_Name: event:/SFX/Item Pick-up/Resilience Methods/Shovel
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Te Bulbui Leaf
+  Path: event:/SFX/Item Pick-up/Resilience Methods/Shovel
   Guid:
-    Data1: -782618425
-    Data2: 1093828020
-    Data3: -1384032880
-    Data4: -130032883
+    Data1: -890041797
+    Data2: 1158545509
+    Data3: -1656739393
+    Data4: 1202755236
   Banks:
   - {fileID: 5431593022651343030}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 800
+  Length: 1500
 --- !u!114 &5431593022651343030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,10 +870,10 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638872594850736298
+  lastModified: 638883116543090394
   FileSizes:
   - Name: Desktop
-    Value: 1898624
+    Value: 28442848
   Exists: 1
 --- !u!114 &5581345526680876138
 MonoBehaviour:
@@ -495,7 +890,7 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 638872594850635999
+  lastModified: 638883116135582942
   FileSizes:
   - Name: Desktop
     Value: 842336
@@ -515,11 +910,92 @@ MonoBehaviour:
   Path: FMOD/Indiecade Climate Jam 2025/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638869069504519386
+  lastModified: 638883116121244374
   FileSizes:
   - Name: Desktop
-    Value: 1744
+    Value: 2380
   Exists: 1
+--- !u!114 &7241739054006562368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Introduction/Map
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Introduction/Map
+  Guid:
+    Data1: 1741165941
+    Data2: 1099104797
+    Data3: -1728079473
+    Data4: -572284338
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1924
+--- !u!114 &7338497186072669083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Saltwater Intrusion/Bicycle
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Bicycle
+  Guid:
+    Data1: -1204673573
+    Data2: 1264300091
+    Data3: 1742481570
+    Data4: 1286091348
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &7838228934760049531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Item Pick-up/Saltwater Intrusion/Plastic Bucket
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Plastic Bucket
+  Guid:
+    Data1: -1246397673
+    Data2: 1148324725
+    Data3: -1508239959
+    Data4: 608397147
+  Banks:
+  - {fileID: 5431593022651343030}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 519
 --- !u!114 &7956590918612924264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,7 +1023,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 121600
---- !u!114 &8851507891973054530
+--- !u!114 &7969753677874210178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -557,14 +1033,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Item Pick-up/Plastic Bucket
+  m_Name: event:/SFX/Item Pick-up/Introduction/Wave
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Item Pick-up/Plastic Bucket
+  Path: event:/SFX/Item Pick-up/Introduction/Wave
   Guid:
-    Data1: -1246397673
-    Data2: 1148324725
-    Data3: -1508239959
-    Data4: 608397147
+    Data1: -1676132843
+    Data2: 1177687251
+    Data3: 1173208201
+    Data4: 1008131850
   Banks:
   - {fileID: 5431593022651343030}
   IsStream: 0
@@ -573,4 +1049,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 519
+  Length: 7584

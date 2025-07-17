@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e41b5130-c115-4b7b-b6f4-daaf9dbbb7d8}">
+		<property name="assetPath">
+			<value>walking-through-leaves-257586.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>44.136000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dca760f-634d-4bb7-abb3-90a29b473979}</destination>
+		</relationship>
+	</object>
+</objects>

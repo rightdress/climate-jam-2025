@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{065bea1e-8de2-4a8a-85ed-f81834673263}">
+		<property name="assetPath">
+			<value>fish-splashing-release-1-96870.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9199999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dca760f-634d-4bb7-abb3-90a29b473979}</destination>
+		</relationship>
+	</object>
+</objects>

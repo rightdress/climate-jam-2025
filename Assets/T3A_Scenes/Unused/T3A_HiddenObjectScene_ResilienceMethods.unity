@@ -587,7 +587,7 @@ MonoBehaviour:
       Data2: 1230674458
       Data3: -326851441
       Data4: -879221682
-    Path: event:/SFX/Item Pick-up/Rainwater Tank
+    Path: event:/SFX/Item Pick-up/Resilience Methods/Rainwater Tank
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
       Data2: 1300703187
       Data3: 202638012
       Data4: 1799679836
-    Path: event:/SFX/Item Pick-up/Gas Can
+    Path: event:/SFX/Item Pick-up/Resilience Methods/Gas Can
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -796,6 +796,7 @@ MonoBehaviour:
   _minBounds: {x: 0, y: 0}
   _maxBounds: {x: 0, y: 0}
   CursorManager: {fileID: 3655125437188076860, guid: be81ce7f3d5139e4b86ff8ec8b20f23a, type: 3}
+  ObjectMenu: {fileID: 0}
 --- !u!1 &162840147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,7 +2360,7 @@ MonoBehaviour:
       Data2: 1164586634
       Data3: 38511022
       Data4: -1909882071
-    Path: event:/SFX/Item Pick-up/Young Mangrove Plant
+    Path: event:/SFX/Item Pick-up/Resilience Methods/Young Mangrove Plant
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -3143,7 +3144,7 @@ MonoBehaviour:
       Data2: 1167197510
       Data3: -1125113690
       Data4: 948606089
-    Path: event:/SFX/Item Pick-up/Desalination Solar System
+    Path: event:/SFX/Item Pick-up/Resilience Methods/Desalination Solar System
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -4280,7 +4281,7 @@ MonoBehaviour:
       Data2: 1093828020
       Data3: -1384032880
       Data4: -130032883
-    Path: event:/SFX/Item Pick-up/Te Bulbui Leaf
+    Path: event:/SFX/Item Pick-up/Resilience Methods/Te Bulbui Leaf
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0

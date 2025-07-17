@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c1078581-026d-445c-8194-9e9df09c975c}">
+		<property name="assetPath">
+			<value>bicycle-ring-bell-70138.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>22.536000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dca760f-634d-4bb7-abb3-90a29b473979}</destination>
+		</relationship>
+	</object>
+</objects>

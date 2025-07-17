@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4efa6a98-c067-4ff2-8912-6d3e89fdfcd1}">
+		<property name="assetPath">
+			<value>walking-on-beach-27453.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>49.776000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dca760f-634d-4bb7-abb3-90a29b473979}</destination>
+		</relationship>
+	</object>
+</objects>

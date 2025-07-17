@@ -587,7 +587,7 @@ MonoBehaviour:
       Data2: 1230307597
       Data3: 904408752
       Data4: 1365363815
-    Path: event:/SFX/Item Pick-up/Potted Plant
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Potted Plant
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -727,7 +727,7 @@ MonoBehaviour:
       Data2: 1148324725
       Data3: -1508239959
       Data4: 608397147
-    Path: event:/SFX/Item Pick-up/Plastic Bucket
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Plastic Bucket
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -788,6 +788,7 @@ MonoBehaviour:
   _minBounds: {x: 0, y: 0}
   _maxBounds: {x: 0, y: 0}
   CursorManager: {fileID: 1271052290}
+  ObjectMenu: {fileID: 0}
 --- !u!1 &162840147
 GameObject:
   m_ObjectHideFlags: 0
@@ -3168,7 +3169,7 @@ MonoBehaviour:
       Data2: 1300703187
       Data3: 202638012
       Data4: 1799679836
-    Path: event:/SFX/Item Pick-up/Gas Can
+    Path: event:/SFX/Item Pick-up/Resilience Methods/Gas Can
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0
@@ -4306,7 +4307,7 @@ MonoBehaviour:
       Data2: 1324646289
       Data3: 423180453
       Data4: -1977550813
-    Path: event:/SFX/Item Pick-up/Breadfruit on Floor
+    Path: event:/SFX/Item Pick-up/Saltwater Intrusion/Breadfruit on Floor
   Event: 
   EventPlayTrigger: 12
   EventStopTrigger: 0

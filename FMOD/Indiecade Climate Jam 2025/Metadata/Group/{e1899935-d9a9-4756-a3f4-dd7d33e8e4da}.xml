@@ -2,8 +2,11 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{e1899935-d9a9-4756-a3f4-dd7d33e8e4da}">
 		<property name="name">
-			<value>Voice</value>
+			<value>Dialogue</value>
 		</property>
+		<relationship name="masters">
+			<destination>{34b2a6f5-9e50-4cdb-9bdd-e5b32bafbd5b}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{f3d9334e-b14b-4fb1-a4ed-ef079d96a072}</destination>
 		</relationship>
