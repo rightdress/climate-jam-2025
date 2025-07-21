@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_Temp_Background_SaltwaterIntrusion_0: 2202353100024311276
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

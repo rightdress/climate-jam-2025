@@ -5,7 +5,7 @@
 			<value>UI</value>
 		</property>
 		<relationship name="masters">
-			<destination>{bfbff32d-ca4a-4755-805e-896ea8f643a1}</destination>
+			<destination>{b73cb47d-a1de-49a5-9751-1c6a71d3f5cc}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{a66aa3df-afd8-42ab-9a50-f81cba620328}</destination>

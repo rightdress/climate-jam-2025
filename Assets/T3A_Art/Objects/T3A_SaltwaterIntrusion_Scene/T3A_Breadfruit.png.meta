@@ -116,10 +116,10 @@ TextureImporter:
       name: T3A_Breadfruit_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 0
-        width: 134
-        height: 113
+        x: 6
+        y: 2
+        width: 179
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -69,7 +69,15 @@ public class T3A_ClickManager : MonoBehaviour
         if (Mathf.Abs(scroll) > 0.01f)
         {
             // Change size of camera
-            _camera.orthographicSize -= scroll; //TODO: setting to reverse direction of mouse scroll?
+            if (PlayerPrefs.GetInt("ScrollDirection") == 0)
+            {
+                _camera.orthographicSize -= scroll;
+            }
+            if (PlayerPrefs.GetInt("ScrollDirection") == 1)
+            {
+                _camera.orthographicSize += scroll;
+            }
+            
             _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, MinZoom, MaxZoom);
 
             // Set new camera bounds according to orthographic size
