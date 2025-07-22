@@ -119,81 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &98652013
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 98652014}
-  - component: {fileID: 98652016}
-  - component: {fileID: 98652015}
-  m_Layer: 5
-  m_Name: Fifth
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &98652014
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98652013}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90.8375}
-  m_LocalScale: {x: 0.010185655, y: 0.010185655, z: 0.013889529}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1704895153}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.53, y: -4.16}
-  m_SizeDelta: {x: 80, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &98652015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98652013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1304621737475875204, guid: 6be6b5b4ce0547e4d9c8fd15d4d56524, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &98652016
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98652013}
-  m_CullTransparentMesh: 1
 --- !u!1 &112812672
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +187,7 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.41, y: 3.14}
+  m_Offset: {x: 1.423, y: 3.09}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -304,9 +229,9 @@ MonoBehaviour:
   GameManager: {fileID: 646017612}
   UI_Object: {fileID: 815660240}
   UI_Object_Background: {fileID: 944554922}
-  Dialogue_Title: Water Insecurity
-  Dialogue_Text: These containers are used to collect well water. The water is brackish
-    and is not safe to drink.
+  Dialogue_Title: Sandbags as Defense
+  Dialogue_Text: "Sandbag walls, constructed from reused rice bags and gathered sand
+    are often the island\u2019s only defense against king tides, storms, and cyclones."
 --- !u!114 &112812676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,7 +312,6 @@ MonoBehaviour:
   _minBounds: {x: 0, y: 0}
   _maxBounds: {x: 0, y: 0}
   CursorManager: {fileID: 1211358124}
-  ObjectMenu: {fileID: 0}
 --- !u!1 &319464997
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +654,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: T3A_GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 214017405788461536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Hidden behind the tree that's not like the others.
+      objectReference: {fileID: 0}
     - target: {fileID: 320440284296492597, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Color.b
       value: 0.44313726
@@ -780,7 +708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 721508552062372337, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 721508552062372337, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 880465198580706601, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_text
@@ -797,6 +729,48 @@ PrefabInstance:
     - target: {fileID: 1536668269995174064, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Name
       value: Tide Calendar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641902870409005199, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_text
+      value: Tide prediction calendars predict times when high and low tides will
+        occur.\n\nTrainings have been held in Kiribati in order to teach youth how
+        to interpret these calendars, potentially saving lives.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1795757505}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchTargetObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: T3A_HintArrow, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 112812673}
+    - target: {fileID: 2013774373419735870, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341086161689459141, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.55
       objectReference: {fileID: 0}
     - target: {fileID: 2547512569262312531, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Color.b
@@ -852,7 +826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3018928569031469211, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 320
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018928569031469211, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 3692812664295562514, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -893,6 +871,30 @@ PrefabInstance:
     - target: {fileID: 3749481794600014613, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_LocalPosition.y
       value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794605689782645832, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794605689782645832, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794605689782645832, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794605689782645832, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchTargetObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794605689782645832, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: T3A_HintArrow, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794605689782645832, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4234071168764904936, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -945,6 +947,10 @@ PrefabInstance:
     - target: {fileID: 4510566574800564068, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: T3A_GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510566574800564068, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Against a blue wall, hidden behind a stick.
       objectReference: {fileID: 0}
     - target: {fileID: 4511062890596803587, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1098,6 +1104,70 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1795757505}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchTargetObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: T3A_HintArrow, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1432485027}
+    - target: {fileID: 6453327852019090214, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1795757505}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchTargetObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: T3A_HintArrow, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1800685677}
+    - target: {fileID: 6517241305411780637, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6565464149403720882, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1121,6 +1191,10 @@ PrefabInstance:
     - target: {fileID: 6565464149403720882, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: T3A_GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565464149403720882, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: On the ground, above the wall with the three yellow sandbags.
       objectReference: {fileID: 0}
     - target: {fileID: 6576203614198997491, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_IsActive
@@ -1188,7 +1262,7 @@ PrefabInstance:
       objectReference: {fileID: 1703868039}
     - target: {fileID: 7972544798032498646, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8003719397849171523, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Name
@@ -1258,6 +1332,8 @@ PrefabInstance:
     - {fileID: 161740607789603595, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
     - {fileID: 5637234301969712293, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
     - {fileID: 590174922963329576, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+    - {fileID: 6576203614198997491, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+    - {fileID: 8682866819536499652, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5747596676285350438, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       insertIndex: 1
@@ -1270,9 +1346,6 @@ PrefabInstance:
       addedObject: {fileID: 347806778}
     - targetCorrespondingSourceObject: {fileID: 4061306056975498025, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 759652106}
-    - targetCorrespondingSourceObject: {fileID: 4061306056975498025, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1047184253}
     - targetCorrespondingSourceObject: {fileID: 4061306056975498025, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       insertIndex: -1
@@ -1280,9 +1353,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4061306056975498025, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 681917966}
-    - targetCorrespondingSourceObject: {fileID: 4061306056975498025, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 98652014}
     - targetCorrespondingSourceObject: {fileID: 3749481794600014613, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       insertIndex: 1
       addedObject: {fileID: 933342805}
@@ -1379,7 +1449,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1.26875, y: -4.159}
-  m_SizeDelta: {x: 90, y: 90}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681917967
 MonoBehaviour:
@@ -1401,7 +1471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7632820841290203156, guid: 5a3b9cf99b928c846993ddb88ede1c03, type: 3}
+  m_Sprite: {fileID: 8613174269559026490, guid: d1d7c9a1026e75b4a82671112a724bef, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1556,81 +1626,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759223579}
   m_CullTransparentMesh: 1
---- !u!1 &759652105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 759652106}
-  - component: {fileID: 759652108}
-  - component: {fileID: 759652107}
-  m_Layer: 5
-  m_Name: First
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &759652106
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759652105}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90.8375}
-  m_LocalScale: {x: 0.010185655, y: 0.010185655, z: 0.013889529}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1704895153}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.53, y: -4.17}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &759652107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759652105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -8859607325001817120, guid: 62c6c93686cbddb46b1ae3da64f83b16, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &759652108
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759652105}
-  m_CullTransparentMesh: 1
 --- !u!1 &815660240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,7 +1661,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.01, y: -4.15}
-  m_SizeDelta: {x: 90, y: 90}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &815660242
 MonoBehaviour:
@@ -1688,7 +1683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3144724006563349682, guid: 2c0ff5a3daba5734e85f12521d1183bc, type: 3}
+  m_Sprite: {fileID: 2712178080363196674, guid: 70d7420167727bd4c85fd6e28dd9b2c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1717,6 +1712,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &868603667
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7397085042598460199, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: TargetObject
+      value: 
+      objectReference: {fileID: 1800685677}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7724789345318811478, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517698075192484786, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1703868039}
+    - target: {fileID: 8821855903171784929, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+      propertyPath: m_Name
+      value: Hint Arrow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
 --- !u!1 &933342804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,8 +1812,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.623771, y: 1.026618}
-  m_SizeDelta: {x: 605, y: 320}
+  m_AnchoredPosition: {x: -5.623771, y: 0.67}
+  m_SizeDelta: {x: 605, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &933342806
 MonoBehaviour:
@@ -1941,7 +2001,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1.26875, y: -4.16}
-  m_SizeDelta: {x: 90, y: 90}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1047184254
 MonoBehaviour:
@@ -1963,7 +2023,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1533942459308767018, guid: 9b61452bbd199ee4c83a585bbf540a57, type: 3}
+  m_Sprite: {fileID: 1160220166341711284, guid: b96c124dfc14f4643bb188de1525fdde, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2419,7 +2479,7 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.2, y: -0.03}
+  m_Offset: {x: -0.25, y: -0.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2454,9 +2514,9 @@ MonoBehaviour:
   GameManager: {fileID: 646017612}
   UI_Object: {fileID: 681917965}
   UI_Object_Background: {fileID: 495253932}
-  Dialogue_Title: Water Insecurity
-  Dialogue_Text: Increasing levels of salinity in the water is affecting garden yields.\n\nThe
-    water is too salty.
+  Dialogue_Title: Coastal Erosion
+  Dialogue_Text: Rising sea levels in Kiribati have forced many families to repeatedly
+    move their homes inland as king tides and erosion make coastal areas unlivable.
 --- !u!114 &1432485030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2712,7 +2772,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: -2132047038979921485, guid: 0bf24af175eb92541a0a4c0f1b2fdef1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9032574, g: 0.93472767, b: 0.9622642, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2746,6 +2806,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1795757505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7397085042598460199, guid: 1dc4bfde06f7b564497d11fbc4859f83, type: 3}
+  m_PrefabInstance: {fileID: 868603667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b65d431e26d194faee7bfed407799d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1800685676
@@ -2828,10 +2899,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1.4601039, y: 3.1143022}
-      - {x: -1.2394851, y: 3.121725}
-      - {x: -1.2395396, y: 2.4971573}
-      - {x: -1.4616237, y: 2.4966943}
+    - - {x: -1.4498467, y: 3.0443134}
+      - {x: -1.2330744, y: 3.039011}
+      - {x: -1.2382575, y: 2.4335313}
+      - {x: -1.4532897, y: 2.4489748}
   m_UseDelaunayMesh: 0
 --- !u!114 &1800685679
 MonoBehaviour:
@@ -2848,9 +2919,10 @@ MonoBehaviour:
   GameManager: {fileID: 646017612}
   UI_Object: {fileID: 1047184252}
   UI_Object_Background: {fileID: 685210929}
-  Dialogue_Title: Food Insecurity
-  Dialogue_Text: The breadfruit tree now produces less fruit after being watered
-    with contaminated well water.
+  Dialogue_Title: Predicting Tides
+  Dialogue_Text: Tide prediction calendars predict times when high and low tides
+    will occur.\n\nTrainings have been held in Kiribati in order to teach youth how
+    to interpret these calendars, potentially saving lives.
 --- !u!114 &1800685680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2969,4 +3041,5 @@ SceneRoots:
   - {fileID: 2063945752}
   - {fileID: 570574672}
   - {fileID: 1157060790}
+  - {fileID: 868603667}
   - {fileID: 1217190982}

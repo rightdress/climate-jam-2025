@@ -13,7 +13,6 @@ public class T3A_ClickManager : MonoBehaviour
     [SerializeField] private Vector2 _maxBounds;
 
     public T3A_CursorManager CursorManager;
-    public GameObject ObjectMenu;
 
     Camera _camera;
     private Vector2 _dragOrigin;
