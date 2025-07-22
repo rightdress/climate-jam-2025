@@ -23,4 +23,9 @@ public class T3A_Controller : MonoBehaviour
     {
         obj.SetActive(false);
     }
+
+    public void OpenURL(string url)
+    {
+        Application.OpenURL(url);
+    }
 }

@@ -175,7 +175,7 @@ MonoBehaviour:
     Path: event:/SFX/Item Pick-up/Resilience Methods/Desalination Solar System
   Event: 
   EventPlayTrigger: 12
-  EventStopTrigger: 0
+  EventStopTrigger: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -511,7 +511,7 @@ MonoBehaviour:
     Path: event:/SFX/Item Pick-up/Resilience Methods/Te Bulbui Leaf
   Event: 
   EventPlayTrigger: 12
-  EventStopTrigger: 0
+  EventStopTrigger: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -606,6 +606,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b65d431e26d194faee7bfed407799d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &284785055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 471651633453216041, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1703868039}
+    - target: {fileID: 471651633453216041, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.50205
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55185
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502110809483077786, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263387819744373625, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_Name
+      value: Controls Popup
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263387819744373625, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+--- !u!1 &284785056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6263387819744373625, guid: 9e85ff38938f929479f16fec4e890e3c, type: 3}
+  m_PrefabInstance: {fileID: 284785055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &319464997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1610,38 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 392210799}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: T3A_Controller, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 284785056}
+    - target: {fileID: 6643889617149411536, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6773327934390964776, guid: 7c3062d004070b94ba5eea393f672c5d, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2321,7 +2427,7 @@ MonoBehaviour:
     Path: event:/SFX/Item Pick-up/Resilience Methods/Shovel
   Event: 
   EventPlayTrigger: 12
-  EventStopTrigger: 0
+  EventStopTrigger: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -2701,7 +2807,7 @@ MonoBehaviour:
     Path: event:/SFX/Item Pick-up/Resilience Methods/Young Mangrove Plant
   Event: 
   EventPlayTrigger: 12
-  EventStopTrigger: 0
+  EventStopTrigger: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -3463,7 +3569,7 @@ MonoBehaviour:
     Path: event:/SFX/Item Pick-up/Resilience Methods/Rainwater Tank
   Event: 
   EventPlayTrigger: 12
-  EventStopTrigger: 0
+  EventStopTrigger: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -3573,5 +3679,6 @@ SceneRoots:
   - {fileID: 758339227}
   - {fileID: 570574672}
   - {fileID: 1097580921}
+  - {fileID: 284785055}
   - {fileID: 131458636}
   - {fileID: 1217190982}

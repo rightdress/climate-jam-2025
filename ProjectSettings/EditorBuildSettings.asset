@@ -35,6 +35,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/T3A_Scenes/T3A_HiddenObjectScene_3_SaltwaterIntrusion.unity
     guid: c07ec9643abe66746bc8a4bd12ae7899
+  - enabled: 1
+    path: Assets/T3A_Scenes/T3A_NewspaperScene.unity
+    guid: cf7ea27bc6231c6418a6dec586f269d7
+  - enabled: 1
+    path: Assets/T3A_Scenes/T3A_NewspaperScene_2.unity
+    guid: b2d36b3b9f1e4424aa530d98b446976e
+  - enabled: 1
+    path: Assets/T3A_Scenes/T3A_Organizations.unity
+    guid: 965fe034773b8094dbe985355e979f66
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
