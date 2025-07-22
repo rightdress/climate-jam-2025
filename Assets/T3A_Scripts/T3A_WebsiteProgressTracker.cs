@@ -32,6 +32,7 @@ public class T3A_WebsiteProgressTracker : MonoBehaviour
     public void WebsiteVisited(int num)
     {
         websiteNumToStar[num].SetActive(true);
+        isWebsiteVisited[num] = true;
 
         AreAllWebsitesVisited();
     }
@@ -40,9 +41,12 @@ public class T3A_WebsiteProgressTracker : MonoBehaviour
     {
         int numVisited = 0;
 
-        foreach (var True in isWebsiteVisited)
+        for (int i = 1; i < 6; i++)
         {
-            numVisited++;
+            if (isWebsiteVisited[i])
+            {
+                numVisited++;
+            }
         }
 
         if (numVisited == 5)
