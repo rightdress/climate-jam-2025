@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class T3A_HiddenObject : MonoBehaviour
     public GameObject UI_Object_Background;
     public string Dialogue_Title;
     public string Dialogue_Text;
+    public GameObject FoundCircle;
 
     Image _image;
 
@@ -15,6 +17,7 @@ public class T3A_HiddenObject : MonoBehaviour
     {
         // Grab image of UI background so we can change its color once an object has been found
         _image = UI_Object_Background.GetComponent<Image>();
+        FoundCircle.SetActive(false);
     }
 
     public void OnClicked()
@@ -31,9 +34,17 @@ public class T3A_HiddenObject : MonoBehaviour
         // Make Dialogue Box appear
         GameManager.ShowDialogueBox(Dialogue_Title, Dialogue_Text);
 
+        // Show circle
+        ShowFoundCircle();
+
         // Disable gameObject with collider component, which will prevent the collider from being clicked on again and
         // trigger the FMOD event as long as FMOD studio event emitter component is set up properly:
         // Event Play Trigger should be set to "Object Disable", with the correct event placed in the Event field
         gameObject.SetActive(false);
+    }
+
+    private void ShowFoundCircle()
+    {
+        FoundCircle.SetActive(true);
     }
 }

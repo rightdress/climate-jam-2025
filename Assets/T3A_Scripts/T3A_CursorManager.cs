@@ -20,11 +20,11 @@ public class T3A_CursorManager : MonoBehaviour
     {
         if (isGameScene)
         {
-            Cursor.SetCursor(GameCursor, Vector2.zero, CursorMode.Auto);
+            Cursor.SetCursor(GameCursor, new Vector2(10, 3), CursorMode.Auto);
         }
         else
         {
-            Cursor.SetCursor(DefaultCursor, Vector2.zero, CursorMode.Auto);
+            Cursor.SetCursor(DefaultCursor, new Vector2(10, 3), CursorMode.Auto);
         }
     }
 
@@ -35,7 +35,7 @@ public class T3A_CursorManager : MonoBehaviour
 
     private void SetCursor(Texture2D cursorTexture)
     {
-        Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(cursorTexture, new Vector2(10, 3), CursorMode.Auto);
     }
 
     public void ChangeCursor(string style)
