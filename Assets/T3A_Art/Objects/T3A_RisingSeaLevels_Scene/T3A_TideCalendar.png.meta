@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_TideCalendar_0: 1160220166341711284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

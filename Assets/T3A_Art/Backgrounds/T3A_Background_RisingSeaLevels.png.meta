@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T3A_Background_RisingSeaLevels_0: -2132047038979921485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
